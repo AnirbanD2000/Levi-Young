@@ -1,0 +1,1489 @@
+/* @media (min-width: 992px) {
+    .container {
+        max-width: 910px;
+    }
+} */
+@media(max-width: 1300px) and (min-width: 1200px) {
+    h1 {
+        font-size: 45px !important;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 26px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffffff00 !important;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 100px;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+        padding-left: 10px;
+    }
+
+    .navbar ul li a {
+        font-family: "navigo";
+        font-weight: 500;
+        color: #ffff;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    .menu-bar img {
+        height: 27px;
+    }
+
+    .inner-header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        background: #ffffff !important;
+    }
+
+    .inner-header ul li a {
+        font-family: "navigo";
+        font-weight: 500;
+        color: #000;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .banner-bg .heading {
+        padding-left: 120px;
+    }
+
+    .banner-bg span {
+        font-size: 28px;
+        font-family: "navigo";
+        font-weight: 500;
+        color: #ffff;
+        padding-bottom: 20px;
+    }
+
+    .banner-text {
+        font-family: 'navigo';
+        font-weight: 600;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffff;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+    }
+
+    .first-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        right: 12%;
+    }
+
+    .new {
+        color: #fff;
+        width: 570px;
+        position: relative;
+        left: -220px;
+    }
+
+    .our-doctor-prop img {
+        width: 660px;
+        height: auto;
+        position: absolute;
+        top: 32%;
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 330px;
+        align-items: center;
+        padding-top: 180px;
+        position: relative;
+    }
+
+    .our-doctor-prop {
+        background: #F4F4F4;
+        min-width: 470px;
+        height: 570px;
+    }
+
+    .our-doctor-sec .double-arrow {
+        margin: -100px 0 0 115px;
+        position: relative;
+    }
+
+    .our-office-video {
+        background-image: url(../images/static-img/office-banner.jpg);
+        padding: 180px 0;
+    }
+
+    .surgical-panel {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        padding-top: 70px;
+        position: relative;
+    }
+
+    .surgical-prop img {
+        width: 680px;
+        height: auto;
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    .surgical-prop {
+        background: #F4F4F4;
+        width: 1000px;
+        height: 580px;
+    }
+
+    .surgical-sec .double-arrow {
+        margin: -95px 155px 0 0;
+        position: relative;
+    }
+
+    .surgical-sec ul li a {
+        color: #bfbfbf;
+        font-family: "navigo";
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .surgical-sec ul li {
+        border-bottom: 1px solid #999999;
+        padding: 0px 0;
+        width: 500px;
+    }
+
+    .surgical-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 170px;
+    }
+
+    .contact-prop img {
+        width: 740px;
+        height: auto;
+        position: absolute;
+        top: 9%;
+    }
+
+    .contact-prop {
+        background: #F4F4F4;
+        min-width: 600px;
+        height: 600px;
+    }
+
+    .contact-prop .heading {
+        padding: 260px 105px;
+        position: relative;
+        z-index: 10000;
+    }
+
+    .contact-form {
+        margin-left: -260px;
+        position: relative;
+    }
+
+    /*-------------------------------- inner-area -------------------------*/
+    .candidate-sec .double-arrow {
+        margin: -88px 0 0 230px;
+        position: relative;
+    }
+
+    .candidate-panel .heading {
+        padding-left: 70px;
+    }
+
+    .candidate-img img {
+        width: 830px;
+        height: auto;
+    }
+
+    .candidate-sec p {
+        color: #000 !important;
+        padding-top: 22px;
+    }
+
+    .our-doctor-panel2 .our-doctor-prop img {
+        width: 740px;
+        height: auto;
+        position: absolute;
+        top: 20%;
+    }
+
+    .our-doctor-panel2 .our-doctor-prop {
+        background: #F4F4F4;
+        min-width: 515px;
+        height: 640px;
+    }
+
+    .our-doctor-sec .double-arrow2 {
+        margin: -115px 0 80px 282px;
+        position: relative;
+        text-align: center;
+    }
+
+    .inner-contact-sec .heading .new2 {
+        background: #000;
+        height: 1px;
+        width: 250px;
+        position: relative;
+        left: 37%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .surgical-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 170px;
+    }
+
+    .inner-contact-sec .heading .new3 {
+        background: #000;
+        margin: 0;
+        width: 135px;
+        position: relative;
+        left: 43%;
+        right: 50%;
+        opacity: 100%;
+    }
+}
+
+@media(max-width:1199px) and (min-width: 992px) {
+    h1 {
+        font-size: 45px !important;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 26px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffffff00 !important;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 100px;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+        padding-left: 10px;
+    }
+
+    .navbar ul li a {
+        font-family: "navigo";
+        font-weight: 500;
+        color: #ffff;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    .menu-bar img {
+        height: 27px;
+    }
+
+    .inner-header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        background: #ffffff !important;
+    }
+
+    .inner-header ul li a {
+        font-family: "navigo";
+        font-weight: 500;
+        color: #000;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .banner-bg .heading {
+        padding-left: 120px;
+    }
+
+    .banner-bg span {
+        font-size: 28px;
+        font-family: "navigo";
+        font-weight: 500;
+        color: #ffff;
+        padding-bottom: 20px;
+    }
+
+    .banner-text {
+        font-family: 'navigo';
+        font-weight: 600;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffff;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+    }
+
+    .first-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        right: 12%;
+    }
+
+    .new {
+        color: #fff;
+        width: 570px;
+        position: relative;
+        left: -220px;
+    }
+
+    .our-doctor-prop img {
+        width: 555px;
+        height: auto;
+        position: absolute;
+        top: 36%;
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        padding-top: 180px;
+        position: relative;
+    }
+
+    .our-doctor-prop {
+        background: #F4F4F4;
+        min-width: 380px;
+        height: 500px;
+    }
+
+    .our-doctor-sec .double-arrow {
+        margin: -98px 0 0 115px;
+        position: relative;
+    }
+
+    .our-office-video {
+        background-image: url(../images/static-img/office-banner.jpg);
+        padding: 180px 0;
+    }
+
+    .surgical-panel {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        padding-top: 70px;
+        position: relative;
+    }
+
+    .surgical-prop img {
+        width: 620px;
+        height: auto;
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    .surgical-prop {
+        background: #F4F4F4;
+        width: 1000px;
+        height: 520px;
+    }
+
+    .surgical-sec .double-arrow {
+        margin: -85px 190px 0 0;
+        position: relative;
+    }
+
+    .contact-prop img {
+        width: 740px;
+        height: auto;
+        position: absolute;
+        top: 9%;
+    }
+
+    .contact-prop {
+        background: #F4F4F4;
+        min-width: 600px;
+        height: 600px;
+    }
+
+    .contact-prop .heading {
+        padding: 231px 0;
+        position: relative;
+        z-index: 10000;
+    }
+
+    .contact-form {
+        margin-left: -260px;
+        position: relative;
+    }
+
+    /*-------------------------------- inner-area -------------------------*/
+    .candidate-sec .double-arrow {
+        margin: -88px 0 0 230px;
+        position: relative;
+    }
+
+    .candidate-panel .heading {
+        padding-left: 70px;
+    }
+
+    .candidate-img img {
+        width: 830px;
+        height: auto;
+    }
+
+    .candidate-sec p {
+        color: #000 !important;
+        padding-top: 22px;
+    }
+
+    .our-doctor-panel2 .our-doctor-prop img {
+        width: 740px;
+        height: auto;
+        position: absolute;
+        top: 20%;
+    }
+
+    .our-doctor-panel2 .our-doctor-prop {
+        background: #F4F4F4;
+        min-width: 515px;
+        height: 640px;
+    }
+
+    .our-doctor-sec .double-arrow2 {
+        margin: -115px 0 80px 282px;
+        position: relative;
+        text-align: center;
+    }
+
+    .inner-contact-sec .heading .new2 {
+        background: #000;
+        height: 1px;
+        width: 250px;
+        position: relative;
+        left: 37%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .inner-contact-sec .heading .new3 {
+        background: #000;
+        margin: 0;
+        width: 135px;
+        position: relative;
+        left: 43%;
+        right: 50%;
+        opacity: 100%;
+    }
+}
+
+
+@media(max-width:991px) and (min-width: 768px) {
+    .navbar-default.scrolled {
+        background: #ffff;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffff !important;
+    }
+
+    .navlists {
+        display: none;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 0;
+    }
+
+    .navbar ul li a {
+        color: #000;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    button.navbar-toggler,
+    .glass-icon {
+        display: none;
+    }
+
+    .navbar ul li {
+        padding-left: 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .banner-bg span {
+        font-size: 30px;
+    }
+
+    .gallery-img {
+        text-align: center;
+    }
+
+    .gallery-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/static-img/right.png");
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/static-img/left.png");
+    }
+
+    .our-doctor-mob {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        padding-top: 80px;
+        position: relative;
+    }
+
+    .our-brand-sec {
+        padding: 50px 0;
+    }
+
+    .contact-sec-mob {
+        padding: 60px 0;
+    }
+
+    .contact-bg {
+        background-image: url(../images/static-img/contact-mob-bg.jpg);
+        padding: 115px 0 200px;
+    }
+
+    .contact-bg .heading {
+        padding-left: 12px;
+    }
+
+    .contact-sec-mob .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -31px;
+    }
+
+    .contact-mob-form {
+        text-align: center;
+        margin-top: -125px;
+    }
+
+    .main-footer {
+        background: #ffff;
+        padding: 75px 0 17px;
+        text-align: center;
+    }
+
+    .foot-star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .foot-star:last-child {
+        margin-bottom: 3px;
+    }
+
+    .foot-last-sec p {
+        color: #000 !important;
+        font-size: 13px;
+    }
+
+    .foot-last-sec {
+        background: #ffff;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .foot-last-sec ul li a {
+        font-family: 'navigo';
+        font-weight: 700;
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    /*----------------------- inner-area ----------------------*/
+    .lower-head {
+        background: #e6e6e6;
+    }
+
+    .candidate-panel .heading {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) and (min-width: 529px) {
+
+    .navbar-default.scrolled {
+        background: #ffff;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffff !important;
+    }
+
+    .navlists {
+        display: none;
+    }
+
+    button.navbar-toggler,
+    .glass-icon {
+        display: none;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 0;
+    }
+
+    .navbar ul li a {
+        color: #000;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li {
+        padding-left: 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    .banner-bg .heading {
+        padding-left: 160px;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: #ffffff;
+        line-height: 60px;
+        letter-spacing: 3.8px;
+        margin-bottom: 32px;
+    }
+
+    .banner-bg span {
+        font-size: 30px;
+        color: #ffff;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .banner-text {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ffff;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .double-arrow {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .gallery-img {
+        text-align: center;
+    }
+
+    .gallery-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/static-img/right.png");
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/static-img/left.png");
+    }
+
+    section.our-doctor-sec {
+        padding-bottom: 0;
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        padding-top: 100px;
+        position: relative;
+    }
+
+    .doctor-text {
+        font-family: 'navigo';
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        width: 93px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+    }
+
+    .our-doctor-mob img {
+        padding-top: 38px;
+    }
+
+    .our-brand-sec {
+        padding: 45px 0;
+    }
+
+    .our-office-video {
+        background-image: url(../images/static-img/office-mob-bg.jpg);
+        padding: 96px 0 272px;
+    }
+
+    .our-office-video img {
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    h3 {
+        font-size: 39px;
+        color: #ffffff;
+    }
+
+    .surgical-panel {
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .surgical-sec ul li {
+        border-bottom: 1px solid #999999;
+        padding: 2px 0;
+        width: 100%;
+    }
+
+    .review-sec {
+        background-image: url(../images/static-img/review-mob.jpg);
+        padding: 215px 0;
+    }
+
+    .review-content {
+        padding: 0;
+    }
+
+    .view-area {
+        background-image: url(../images/static-img/view-mob-bg.jpg);
+        padding: 65px 0 305px;
+    }
+
+    .view-gallery-bg .heading {
+        padding-left: 0;
+    }
+
+    .view-gallery-bg .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -13px;
+    }
+
+    .contact-sec-mob {
+        padding: 60px 0;
+    }
+
+    .contact-bg {
+        background-image: url(../images/static-img/contact-mob-bg.jpg);
+        padding: 45px 0 155px;
+    }
+
+    .contact-bg .heading {
+        padding-left: 12px;
+    }
+
+    .contact-sec-mob .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -31px;
+    }
+
+    .contact-mob-form {
+        text-align: center;
+        margin-top: -125px;
+    }
+
+    .main-footer {
+        background: #ffff;
+        padding: 75px 0 17px;
+        text-align: center;
+    }
+
+    .foot-star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .foot-star:last-child {
+        margin-bottom: 3px;
+    }
+
+    .foot-last-sec p {
+        color: #000 !important;
+        font-size: 13px;
+    }
+
+    .foot-last-sec {
+        background: #ffff;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .foot-last-sec ul li a {
+        font-family: 'navigo';
+        font-weight: 700;
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .footer-credit {
+        background: #e9e9e9;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*---------------------- inner-area -----------------------*/
+    .recovery-sec {
+        background-image: url(../images/static-img/recovery-mob.jpg);
+        padding: 90px 0 100px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .recovery-sec .heading {
+        padding: 0 51px;
+    }
+
+
+}
+
+@media(max-width:528px) and (min-width: 396px) {
+    .navbar-default.scrolled {
+        background: #ffff;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffff !important;
+    }
+
+    .navlists {
+        display: none;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 0;
+    }
+
+    button.navbar-toggler,
+    .glass-icon {
+        display: none;
+    }
+
+    .navbar ul li a {
+        color: #000;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li {
+        padding-left: 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    .banner-bg .heading {
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: #ffffff;
+        line-height: 60px;
+        letter-spacing: 3.8px;
+        margin-bottom: 32px;
+    }
+
+    .banner-bg span {
+        font-size: 30px;
+        color: #ffff;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    .banner-text {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ffff;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .double-arrow {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .gallery-img {
+        text-align: center;
+    }
+
+    .gallery-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/static-img/right.png");
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/static-img/left.png");
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        padding-top: 100px;
+        position: relative;
+    }
+
+    .doctor-text {
+        font-family: 'navigo';
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        width: 93px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+    }
+
+    .our-doctor-mob img {
+        padding-top: 38px;
+    }
+
+    .our-brand-sec {
+        padding: 45px 0;
+    }
+
+    .our-office-video {
+        background: url(../images/static-img/office-mob-bg.jpg);
+        padding: 96px 0 272px;
+    }
+
+    .our-office-video img {
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    h3 {
+        font-size: 31px;
+        color: #ffffff;
+    }
+
+    .surgical-sec ul li {
+        border-bottom: 1px solid #999999;
+        padding: 2px 0;
+        width: 100%;
+    }
+
+    .review-sec {
+        background: url(../images/static-img/review-mob.jpg);
+        padding: 55px 0;
+    }
+
+    .view-area {
+        background: url(../images/static-img/view-mob-bg.jpg);
+        padding: 65px 0 305px;
+    }
+
+    .view-gallery-bg .heading {
+        padding-left: 0;
+    }
+
+    .view-gallery-bg .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -13px;
+    }
+
+    .contact-sec-mob {
+        padding: 60px 0;
+    }
+    .contact-bg {
+        background: url(../images/static-img/contact-mob-bg.jpg);
+        padding: 45px 0 155px;
+    }
+
+    .contact-bg .heading {
+        padding-left: 12px;
+    }
+
+    .contact-sec-mob .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -31px;
+    }
+
+    .contact-mob-form {
+        text-align: center;
+        margin-top: -125px;
+    }
+
+    .main-footer {
+        background: #ffff;
+        padding: 75px 0 17px;
+        text-align: center;
+    }
+
+    .foot-star:last-child {
+        margin-bottom: 3px;
+    }
+
+    .foot-last-sec p {
+        color: #000;
+        font-size: 13px;
+    }
+
+    .foot-last-sec {
+        background: #ffff;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .foot-last-sec ul li a {
+        font-family: 'navigo';
+        font-weight: 700;
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    /*------------------------------- inner-area --------------------*/
+    .inner-contact-sec {
+        background: url(../images/static-img/contact-us.jpg);
+        padding: 110px 0;
+    }
+
+    .inner-contact-sec .heading .new2 {
+        background: #000;
+        height: 1px;
+        width: 250px;
+        position: relative;
+        left: 17%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .inner-contact-sec .heading .new3 {
+        background: #000;
+        margin: 0;
+        width: 135px;
+        position: relative;
+        left: 31%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .recovery-sec {
+        background: url(../images/static-img/recovery-mob.jpg);
+        padding: 100px 0;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media(max-width:395px) {
+
+    
+    .navbar-default.scrolled {
+        background: #ffff;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        display: none;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 0;
+        z-index: 10000;
+        background: #ffff !important;
+    }
+
+    .navlists {
+        display: none;
+    }
+
+    ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+        padding-left: 0;
+    }
+
+    button.navbar-toggler,
+    .glass-icon {
+        display: none;
+    }
+
+    .navbar ul li a {
+        color: #000;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li {
+        padding-left: 0;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    .banner-bg .heading {
+        padding-left: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: #ffffff;
+        line-height: 60px;
+        letter-spacing: 3.8px;
+        margin-bottom: 32px;
+    }
+
+    .banner-bg span {
+        font-size: 30px;
+        color: #ffff;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .banner-text {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #ffff;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+
+    .double-arrow {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .gallery-img {
+        text-align: center;
+    }
+
+    .gallery-img h2 {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/static-img/right.png");
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/static-img/left.png");
+    }
+
+    .our-doctor-panel {
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        padding-top: 100px;
+        position: relative;
+    }
+
+    .doctor-text {
+        font-family: 'navigo';
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        width: 93px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+    }
+
+    .our-doctor-mob img {
+        padding-top: 38px;
+    }
+
+    .our-brand-sec {
+        padding: 45px 0;
+    }
+
+    .our-office-video {
+        background-image: url(../images/static-img/office-mob-bg.jpg);
+        padding: 96px 0 272px;
+    }
+
+    .our-office-video img {
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    h3 {
+        font-size: 31px;
+        color: #ffffff;
+    }
+
+    .surgical-sec ul li {
+        border-bottom: 1px solid #999999;
+        padding: 2px 0;
+        width: 100%;
+    }
+
+    .review-sec {
+        background-image: url(../images/static-img/review-mob.jpg);
+        padding: 55px 0;
+    }
+
+    .view-area {
+        background-image: url(../images/static-img/view-mob-bg.jpg);
+        padding: 65px 0 305px;
+    }
+
+    .view-gallery-bg .heading {
+        padding-left: 0;
+    }
+
+    .view-gallery-bg .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -13px;
+    }
+
+    .contact-sec-mob {
+        padding: 60px 0;
+    }
+
+    .contact-bg {
+        background-image: url(../images/static-img/contact-mob-bg.jpg);
+        padding: 45px 0 155px;
+    }
+
+    .contact-bg .heading {
+        padding-left: 12px;
+    }
+
+    .contact-sec-mob .new {
+        background: #ffff;
+        width: 100%;
+        position: relative;
+        left: -31px;
+    }
+
+    .contact-mob-form {
+        text-align: center;
+        margin-top: -125px;
+    }
+
+    .main-footer {
+        background: #ffff;
+        padding: 75px 0 17px;
+        text-align: center;
+    }
+
+    .foot-star:last-child {
+        margin-bottom: 3px;
+    }
+
+    .foot-last-sec p {
+        color: #000 !important;
+        font-size: 13px;
+    }
+
+    .footer-credit {
+        background: #e9e9e9;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-credit ul li a {
+        font-family: 'navigo';
+        font-weight: 700;
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .foot-end img {
+        height: 25px;
+    }
+
+    /*------------------------------- inner-area --------------------*/
+    .inner-contact-sec {
+        background-image: url(../images/static-img/contact-us.jpg);
+        padding: 110px 0;
+    }
+
+    .inner-contact-sec .heading .new2 {
+        background: #000;
+        height: 1px;
+        width: 250px;
+        position: relative;
+        left: 17%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .inner-contact-sec .heading .new3 {
+        background: #000;
+        margin: 0;
+        width: 135px;
+        position: relative;
+        left: 31%;
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .recovery-sec {
+        background-image: url(../images/static-img/recovery-mob.jpg);
+        padding: 100px 0;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
